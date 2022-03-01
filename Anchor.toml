@@ -10,3 +10,8 @@ wallet = "/Users/<>/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+
+[[test.genesis]]
+address = "hausS13jsjafwWwGqZTUQRmWyvyxn9EQpqMwV1PBBmk"
+program = "./deps/metaplex-program-library/target/deploy/mpl_auction_house.so"
